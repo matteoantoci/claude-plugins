@@ -1,0 +1,23 @@
+{
+  "name": "matteoantoci-plugins",
+  "owner": {
+    "name": "Matteo Antoci",
+    "url": "https://github.com/matteoantoci"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins."
+  },
+  "plugins": [
+    {
+      "name": "google-slides-mcp",
+      "displayName": "Google Slides MCP",
+      "description": "Create and edit Google Slides from Claude Code.",
+      "source": {
+        "source": "github",
+        "repo": "matteoantoci/google-slides-mcp"
+      },
+      "homepage": "https://github.com/matteoantoci/google-slides-mcp",
+      "keywords": ["google-slides", "mcp"]
+    }
+  ]
+}
