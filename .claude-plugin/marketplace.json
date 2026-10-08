@@ -17,7 +17,26 @@
         "repo": "matteoantoci/google-slides-mcp"
       },
       "homepage": "https://github.com/matteoantoci/google-slides-mcp",
-      "keywords": ["google-slides", "mcp"]
+      "keywords": [
+        "google-slides",
+        "mcp"
+      ]
+    },
+    {
+      "name": "watchdog",
+      "displayName": "Watchdog",
+      "description": "Watchdog agents review each update of the agent you work with and push short notes to it. It spawns review subagents and auto-allows only its own review spawn and reviewer reads of files the main agent already read.",
+      "source": {
+        "source": "git-subdir",
+        "url": "matteoantoci/claude-code-watchdog",
+        "path": "plugins/watchdog"
+      },
+      "homepage": "https://github.com/matteoantoci/claude-code-watchdog",
+      "keywords": [
+        "code-review",
+        "agents",
+        "mod"
+      ]
     }
   ]
 }

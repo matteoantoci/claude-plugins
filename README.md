@@ -5,7 +5,10 @@ Paste this in Claude Code:
 ```
 /plugin marketplace add matteoantoci/claude-plugins
 /plugin install google-slides-mcp@matteoantoci-plugins
+/plugin install watchdog@matteoantoci-plugins
 ```
+
+Install only the plugins you want.
 
 Run `/reload-plugins` if Claude asks.
 
@@ -16,6 +19,10 @@ After install, Claude can create and edit Slides in this session.
 The first start opens a browser. Paste a Google Desktop client id and client secret. Finish Google consent. Later starts read the keychain. No env. No host JSON.
 
 Cloud setup lives in the [plugin README](https://github.com/matteoantoci/google-slides-mcp#claude-code).
+
+## Watchdog
+
+Watchdog agents review each update of the agent you work with and push short notes to it. Needs Claude Code 2.1.290 or later. Run `/watchdog on` to start reviews. See the [plugin README](https://github.com/matteoantoci/claude-code-watchdog).
 
 ## Add a plugin
 
